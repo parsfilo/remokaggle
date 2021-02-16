@@ -1,6 +1,13 @@
 # Remokaggle :rocket:
 A quick script to setup SSH to Kaggle Kernel for Deep Learning. In order to use that sexy P100 for free (and without many restriction of Jupyter Notebook) :P
 
+## :bangbang::bangbang: UPDATE :bangbang::bangbang:
+Kaggle had blocked any attempt of creating an SSH tunneling into a running Kaggle kernel. So unfortunately this repo is **NO LONGER WORKS**. Attempting to use the script presented in this repo might violate Term and Conditions of Kaggle and **WILL GET YOUR KAGGLE ACCOUNT BANNED**!
+
+While we wait for Kaggle to change its policy, the best solution for a free (or relatively cheap) GPU instance with a full SSH connection is **GOOGLE COLAB** (As well as Colab Pro) with a Tesla V100 for up to 24 hours. I have created another package that can help you get an SSH tunnel to a running Colab notebook in this repo: https://github.com/lamhoangtung/colab_ssh. You guys should use it instead.
+
+Thanks for checking by :v: !
+
 ## Preparation
 1. Go to https://dashboard.ngrok.com/auth and get your authentication token after register with Google or Github (You only have to do this once)
 2. Modify the [get_ssh.py](./get_ssh.py) file:

@@ -4,7 +4,7 @@ import string
 import time
 
 # Copy authtoken from https://dashboard.ngrok.com/auth
-authtoken = 'YOUR_NGROK_AUTH_TOKEN'
+authtoken = '1sBWwUpygibXEfmCO8fiYZb8TEh_6DQ1xRxqKffkLc5hGQ4b5'
 
 # password = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(20))
 password = 'WHATEVER_YOU_WANT'
